@@ -1,0 +1,13 @@
+﻿@page "/counter"
+
+<input type="text" @attributes="C"/>
+
+
+
+
+
+@code
+{
+    [Parameter(CaptureUnmatchedValues =true)] public IDictionary<string, object> C { get; set; }
+    
+}
